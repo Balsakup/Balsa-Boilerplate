@@ -1,0 +1,15 @@
+@mixin for-small
+    @media (min-width: $breakpoint-sm)
+        @content
+
+@mixin for-medium
+    @media (min-width: $breakpoint-md)
+        @content
+
+@mixin for-large
+    @media (min-width: $breakpoint-lg)
+        @content
+
+@mixin for-extralarge
+    @media (min-width: $breakpoint-xl)
+        @content
